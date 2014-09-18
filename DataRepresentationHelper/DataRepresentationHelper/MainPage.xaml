@@ -17,6 +17,9 @@
                  Margin="30,382,0,0" TextWrapping="Wrap" 
                   VerticalAlignment="Top"
                  Width="329" PlaceholderText="Inserte el número decimal"/>
+        <Button Content="Convertir" HorizontalAlignment="Left" 
+                Margin="224,540,0,0"
+                VerticalAlignment="Top" Width="166" Height="70"/>
 
 
     </Grid>
