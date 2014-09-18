@@ -13,6 +13,11 @@
                    Margin="10,10,0,0" TextWrapping="Wrap" 
                    Text="Data Representation Helper"
                    VerticalAlignment="Top" Height="90" Width="380" FontSize="35"/>
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="30,382,0,0" TextWrapping="Wrap" 
+                  VerticalAlignment="Top"
+                 Width="329" PlaceholderText="Inserte el número decimal"/>
+
 
     </Grid>
 </Page>
