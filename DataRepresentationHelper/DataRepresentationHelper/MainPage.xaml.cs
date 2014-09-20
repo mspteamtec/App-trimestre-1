@@ -70,7 +70,7 @@ namespace DataRepresentationHelper
                 Salida.Text = binc.ToString();
 
             }
-            
+          
            
         
         }
