@@ -44,5 +44,42 @@ namespace DataRepresentationHelper
             // Si usa NavigationHelper, que se proporciona en algunas plantillas,
             // el evento se controla automáticamente.
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (RBBinario.IsChecked==true)
+            {
+                int num = Convert.ToInt32(Entradadecimal.Text);
+                int numero = num;
+                string bin = String.Empty, binc = String.Empty, octal = String.Empty;
+                string octalc = String.Empty, hexa = String.Empty, hexac = String.Empty;
+                do
+                {
+                    if (num % 2 == 1)
+                        bin += "1";
+                    else
+                        bin += "0";
+                    num /= 2;
+                } while (num != 1);
+                bin += "1";  //Siempre se le agrega un 1 al final 
+
+                //Se hace un ciclo for porque el número quedó al revés y hay que invertirlo 
+                for (int i = 1; i <= bin.Length; i++)
+                    binc += bin[bin.Length - i];
+                num = numero;
+                Salida.Text = binc.ToString();
+
+            }
+            
+           
+        
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+        
+
     }
 }

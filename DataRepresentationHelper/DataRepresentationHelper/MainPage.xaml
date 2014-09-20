@@ -13,13 +13,22 @@
                    Margin="10,10,0,0" TextWrapping="Wrap" 
                    Text="Data Representation Helper"
                    VerticalAlignment="Top" Height="90" Width="380" FontSize="35"/>
-        <TextBox HorizontalAlignment="Left" 
-                 Margin="30,382,0,0" TextWrapping="Wrap" 
+        <TextBox x:Name="Entradadecimal" HorizontalAlignment="Left" 
+                 Margin="27,264,0,0" TextWrapping="Wrap" 
                   VerticalAlignment="Top"
                  Width="329" PlaceholderText="Inserte el número decimal"/>
         <Button Content="Convertir" HorizontalAlignment="Left" 
                 Margin="224,540,0,0"
-                VerticalAlignment="Top" Width="166" Height="70"/>
+                VerticalAlignment="Top" Width="166" Height="70" 
+                Click="Button_Click"/>
+        <RadioButton x:Name="RBBinario" Content="Binario"
+                     HorizontalAlignment="Left" Margin="115,291,0,0"
+                     VerticalAlignment="Top"/>
+        <TextBlock x:Name="Salida" HorizontalAlignment="Left"
+                   Height="132" Margin="10,100,0,0"
+                   TextWrapping="Wrap" Text=""
+                   VerticalAlignment="Top" Width="380" 
+                   FontSize="32"  />
 
 
     </Grid>
