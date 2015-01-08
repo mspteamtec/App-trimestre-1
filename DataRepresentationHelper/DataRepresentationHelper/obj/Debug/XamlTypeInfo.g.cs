@@ -529,4 +529,3 @@ namespace DataRepresentationHelper.DataRepresentationHelper_XamlTypeInfo
 }
 
 
-

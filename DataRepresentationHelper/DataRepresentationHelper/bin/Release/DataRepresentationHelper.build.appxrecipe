@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CRISTIAN</Machine>
+    <WindowsUser>QRly</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>31382e42-044b-442c-84c3-3d888a41aebc</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\DataRepresentationHelper.exe">
+      <PackagePath>DataRepresentationHelper.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\DataRepresentationHelper.xr.xml">
+      <PackagePath>DataRepresentationHelper.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -45,32 +46,42 @@ namespace DataRepresentationHelper
             // el evento se controla automáticamente.
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (Entradadecimal.Text=="")
+            {
+                MessageDialog msg = new MessageDialog("Ingrese un valor decimal", "Ups!");
+                await msg.ShowAsync();
+            }
             if (RBBinario.IsChecked==true)
             {
-                int num = Convert.ToInt32(Entradadecimal.Text);
-                int numero = num;
-                string bin = String.Empty, binc = String.Empty, octal = String.Empty;
-                string octalc = String.Empty, hexa = String.Empty, hexac = String.Empty;
-                do
-                {
-                    if (num % 2 == 1)
-                        bin += "1";
-                    else
-                        bin += "0";
-                    num /= 2;
-                } while (num != 1);
-                bin += "1";  //Siempre se le agrega un 1 al final 
-
-                //Se hace un ciclo for porque el número quedó al revés y hay que invertirlo 
-                for (int i = 1; i <= bin.Length; i++)
-                    binc += bin[bin.Length - i];
-                num = numero;
-                Salida.Text = binc.ToString();
+                int n = Convert.ToInt32(Entradadecimal.Text);
+                String resultado = Convert.ToString(n, 2);
+                MessageDialog msg = new MessageDialog(resultado.ToUpper(), "El resultado es: ");
+                await msg.ShowAsync();   
 
             }
-          
+            else if (RBOctal.IsChecked==true)
+            {
+                int n =Convert.ToInt32(Entradadecimal.Text);
+                String resultado = Convert.ToString(n, 8);
+                MessageDialog msg = new MessageDialog(resultado.ToUpper(), "El resultado es: ");
+                await msg.ShowAsync();   
+                 
+            }
+            else if (RBHexadecimal.IsChecked==true)
+            {
+                int n = Convert.ToInt32(Entradadecimal.Text);
+                
+                String resultado = Convert.ToString(n, 16);
+                MessageDialog msg = new MessageDialog(resultado.ToUpper(), "El resultado es: ");
+            await msg.ShowAsync();           
+            }
+            else
+            {
+                MessageDialog msg = new MessageDialog("Seleccione un tipo de dato","Ups!" );
+                await msg.ShowAsync();   
+            }
            
         
         }
@@ -79,6 +90,17 @@ namespace DataRepresentationHelper
         {
 
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Entradadecimal_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
         
 
     }

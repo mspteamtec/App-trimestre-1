@@ -1,0 +1,13 @@
+[Files]
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\AppxManifest.xml" "AppxManifest.xml"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\DataRepresentationHelper.exe" "DataRepresentationHelper.exe"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\Logo.scale-240.png" "Assets\Logo.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\SmallLogo.scale-240.png" "Assets\SmallLogo.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\SplashScreen.scale-240.png" "Assets\SplashScreen.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\Square71x71Logo.scale-240.png" "Assets\Square71x71Logo.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\StoreLogo.scale-240.png" "Assets\StoreLogo.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\Assets\WideLogo.scale-240.png" "Assets\WideLogo.scale-240.png"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\App.xbf" "App.xbf"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\MainPage.xbf" "MainPage.xbf"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\DataRepresentationHelper.xr.xml" "DataRepresentationHelper.xr.xml"
+"C:\Users\QRly\Documents\GitHub\App-trimestre-1\DataRepresentationHelper\DataRepresentationHelper\bin\Release\resources.pri" "resources.pri"
